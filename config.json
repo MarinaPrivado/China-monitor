@@ -1,0 +1,33 @@
+{
+  "sites": [
+    {
+      "name": "Instituto Confúcio - Intercâmbio",
+      "url": "https://www.institutoconfucio.com.br/intercambio/"
+    },
+    {
+      "name": "BRICS Program / Summer School",
+      "url": "https://www.csc.edu.cn/"
+    },
+    {
+      "name": "Programa Brasil-China de Líderes em Inovação",
+      "url": "https://www.gov.br/capes/pt-br"
+    },
+    {
+      "name": "Bolsas do Governo Chinês (CSC)",
+      "url": "https://www.campuschina.org/"
+    }
+  ],
+  "program_types": ["intercambio", "mestrado", "pos-graduacao", "summer-school"],
+  "check_interval_hours": 24,
+  "email": {
+    "method": "resend",
+    "from_email": "",
+    "to_email": ""
+  },
+  "llm": {
+    "provider": "openrouter",
+    "base_url": "https://openrouter.ai/api/v1",
+    "model": "meta-llama/llama-3.3-70b-instruct:free",
+    "max_tokens": 2000
+  }
+}
